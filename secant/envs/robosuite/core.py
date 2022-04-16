@@ -33,7 +33,7 @@ def make_robosuite(
     mode: bool = "train",
     scene_id: Optional[int] = 0,
     reward_shaping: bool = True,
-    verbose: bool = False,
+    verbose: bool = True,
     single_modality_obs: bool = True,
     frame_stack: Optional[int] = 3,
     **kwargs,
